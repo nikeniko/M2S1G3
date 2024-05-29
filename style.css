@@ -1,0 +1,122 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navBar {
+  padding: 10px;
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  float: left;
+  height: 100vh;
+}
+.navBar img {
+  padding: 2px;
+}
+.navBar p {
+  background-color: rgb(250, 208, 145);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 40px;
+  width: 100px;
+  color: rgb(105, 39, 18);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+#shop {
+  align-items: center;
+  display: flex;
+  order: -1;
+  font-size: larger;
+  font-weight: 600;
+}
+#shop span {
+  padding: 5px;
+}
+.SellingProducts {
+  display: flex;
+}
+.shoppingDescription {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  line-height: 20px;
+}
+.shoppingDescription p {
+  font-size: small;
+}
+.shoppingDescription h3 {
+  font-weight: 600;
+  color: rgb(105, 39, 18);
+}
+.shoppingDescription h4 {
+  color: rgb(105, 39, 18);
+}
+.products {
+  display: flex;
+  background-color: blanchedalmond;
+  flex-direction: column;
+  margin: 20px;
+  width: 300px;
+  border-radius: 50px;
+  text-align: center;
+}
+.products img {
+  border-radius: 50px 50px 0 0;
+}
+.products p {
+  color: rgb(105, 39, 18);
+  padding: 3px;
+}
+.products button {
+  border: none;
+  background-color: rgb(250, 208, 145);
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+  border-radius: 20px;
+  color: rgb(105, 39, 18);
+  font-weight: 600;
+  margin: 8px;
+}
+.latestNews {
+  display: flex;
+}
+.latestNews div {
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  margin: 20px;
+}
+.latestNews img {
+  float: left;
+  padding: 20px;
+}
+.titleProducts {
+  display: inline-block;
+  font-weight: 600;
+  color: rgb(105, 39, 18);
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.tittleNews {
+  display: inline-block;
+  font-weight: 600;
+  color: rgb(105, 39, 18);
+  font-size: 25px;
+  margin-left: 30px;
+}
+.titleDescription {
+  display: flex;
+  font-weight: 600;
+  color: rgb(105, 39, 18);
+  font-size: 25px;
+  margin-top: 30px;
+}
+.latestNews p {
+  font-weight: 400;
+  color: rgb(105, 39, 18);
+  font-size: 15px;
+  margin-top: 15px;
+}
